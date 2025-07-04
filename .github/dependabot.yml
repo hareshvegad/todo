@@ -6,7 +6,9 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
-    directory: "/"                # Location of pyproject.toml
+    directory: "/"                # Location of requirements.txt
     schedule:
-      interval: "weekly"
-    versioning-strategy: increase-if-necessary
+      interval: "weekly"          # Options: daily, weekly, monthly
+    open-pull-requests-limit: 10
+    allow:
+      - dependency-type: "all"    # Options: "direct", "indirect", "all"
