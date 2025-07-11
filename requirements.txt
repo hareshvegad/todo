@@ -32,7 +32,7 @@ psycopg2-binary==2.9.7
 Pygments==2.19.2
 pyparsing==3.1.1
 pypiwin32==223
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
 pytz==2023.3
 pywin32==306
 requests==2.32.4
